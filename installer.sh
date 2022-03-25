@@ -2,11 +2,11 @@
 
 #wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/smart-tv-channels/main/installer.sh -O - | /bin/sh
 
-version=1.1
+version=1.2
 #############################################################
 TEMPATH=/tmp
-MY_IPK="enigma2-plugin-extensions-stvcl_1.1_all.ipk"
-MY_DEB="enigma2-plugin-extensions-stvcl_1.1_all.deb"
+MY_IPK="enigma2-plugin-extensions-stvcl_1.2_all.ipk"
+MY_DEB="enigma2-plugin-extensions-stvcl_1.2_all.deb"
 MY_URL="https://raw.githubusercontent.com/emil237/smart-tv-channels/main"
 # remove old version #
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/stvcl
