@@ -22,7 +22,7 @@ set -e
  if which dpkg > /dev/null 2>&1; then
 		dpkg -i --force-overwrite $MY_DEB; apt-get install -f -y
 	else
-		opkg install --force-reinstall $MY_IPK
+		opkg install --force-overwrite $MY_IPK
 	fi
 echo "================================="
 set +e
